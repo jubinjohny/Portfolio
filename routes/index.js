@@ -11,7 +11,13 @@ router.get('/about', function(req, res, next) {
 });
 
 router.get ('/', function(req,res,next) {
-  res.render('index',{title:'Jubin Johny'});
+  res.render('index',{title:'Jubin Johny',serv1:'My approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.',
+  serv2:'Every business has unique problems that can be fixed with the right software solution. My approach is to create an app design that strengthens your company’s brand while ensuring ease of use.',
+  serv3:'SEO is the practice of improving and promoting a website in order to increase the number of visitors it receives.',
+  serv4:'An eCommerce solution is a feature-filled, customisable online storefront and shopping cart that will be directly integrated into your website.',
+  serv5:'Social media integration enables your website to post updates to Facebook, displays a Twitter feed, and links to your social media accounts.',
+  serv6:'I can help you with all your Cloud Native DevOps infrastructure migration. Monitoring, securing and taking part of the form in automating and supporting to ensure CI/CD in product development.'
+ });
 });
 
 
